@@ -76,8 +76,8 @@ a {
   width: 0;
   height: 2px;
   background-color: #000;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
 }
 
 .nav .navlinks-container .navlinks li a:hover::after {
