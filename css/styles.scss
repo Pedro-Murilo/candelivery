@@ -16,7 +16,7 @@
     .navlinks {
       display: flex;
       align-items: center;
-      font-size: 1.8rem;
+      font-size: $text-18;
 
       li {
         margin: 1rem;
@@ -61,3 +61,83 @@
     width: 100vw;
   }
 }
+
+.text-container {
+  max-width: 94rem;
+  margin: 0 auto;
+
+  .text-home {
+    font-size: $title-48;
+    letter-spacing: 0.5rem;
+    line-height: 1.2;
+    margin-top: 5rem;
+
+    h1 {
+      font-weight: 400;
+    }
+
+    .text-one {
+      color: $red-home;
+    }
+
+    .text-two {
+      color: $orange;
+    }
+
+    .text-three {
+      color: $yellow;
+    }
+
+    .text-second {
+      display: flex;
+    }
+  }
+
+  .text-meet {
+    font-size: $text-18;
+    color: $gray-dark;
+    max-width: 50rem;
+    margin-top: 5rem;
+  }
+
+  .btn-container {
+    margin-top: 4rem;
+
+    a {
+      font-size: $text-18;
+      color: $black;
+      padding: 1rem 2rem;
+      border-radius: 0.2rem;
+    }
+
+    .btn-download {
+      background: $red-light-2;
+      padding: 1.2rem 2rem;
+      box-shadow: 0px 0px 40px 0px #C1000040;
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        background: $red-light;
+      }
+    }
+
+    .btn-menu {
+      border: 0.2rem solid $black;
+      margin-left: 2rem;
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        background: $black;
+        color: $whiteRed;
+      }
+    }
+  }
+
+  .text-final {
+    text-align: center;
+    padding-top: 15rem;
+    font-size: $text-18;
+    color: $red;
+  }
+}
+

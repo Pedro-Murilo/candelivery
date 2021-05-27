@@ -95,4 +95,88 @@ a {
 .bg-home img {
   width: 100vw;
 }
+
+.text-container {
+  max-width: 94rem;
+  margin: 0 auto;
+}
+
+.text-container .text-home {
+  font-size: 4.8rem;
+  letter-spacing: 0.5rem;
+  line-height: 1.2;
+  margin-top: 5rem;
+}
+
+.text-container .text-home h1 {
+  font-weight: 400;
+}
+
+.text-container .text-home .text-one {
+  color: #FF0000;
+}
+
+.text-container .text-home .text-two {
+  color: #F66716;
+}
+
+.text-container .text-home .text-three {
+  color: #D9B707;
+}
+
+.text-container .text-home .text-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-container .text-meet {
+  font-size: 1.8rem;
+  color: #4D4D4D;
+  max-width: 50rem;
+  margin-top: 5rem;
+}
+
+.text-container .btn-container {
+  margin-top: 4rem;
+}
+
+.text-container .btn-container a {
+  font-size: 1.8rem;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.text-container .btn-container .btn-download {
+  background: #FE6969;
+  padding: 1.2rem 2rem;
+  -webkit-box-shadow: 0px 0px 40px 0px #C1000040;
+          box-shadow: 0px 0px 40px 0px #C1000040;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.text-container .btn-container .btn-download:hover {
+  background: #F55050;
+}
+
+.text-container .btn-container .btn-menu {
+  border: 0.2rem solid #000;
+  margin-left: 2rem;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.text-container .btn-container .btn-menu:hover {
+  background: #000;
+  color: #F3E8E5;
+}
+
+.text-container .text-final {
+  text-align: center;
+  padding-top: 15rem;
+  font-size: 1.8rem;
+  color: #CD0000;
+}
 /*# sourceMappingURL=styles.css.map */
