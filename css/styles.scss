@@ -2,7 +2,7 @@
 @import "utils/reset";
 
 .nav {
-  max-width: 94rem;
+  max-width: $max-width-94;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@
 }
 
 .text-container {
-  max-width: 94rem;
+  max-width: $max-width-94;
   margin: 0 auto;
 
   .text-home {
