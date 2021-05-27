@@ -67,7 +67,7 @@
   margin: 0 auto;
 
   .text-home {
-    font-size: $title-48;
+    font-size: $title-72;
     letter-spacing: 0.5rem;
     line-height: 1.2;
     margin-top: 5rem;
@@ -141,3 +141,30 @@
   }
 }
 
+.section-quality {
+  position: relative;
+  margin-top: 5rem;
+  
+  .bg-quality {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -1;
+
+    img {
+      width: 100vw;
+    }
+  }
+
+  .title {
+    position: absolute;
+    left: 47%;
+    top: 5rem;
+
+    h2 {
+      font-size: $title-32;
+      font-weight: 400;
+      letter-spacing: 0.2rem;
+    }
+  }
+}
