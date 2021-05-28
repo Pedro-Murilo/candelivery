@@ -186,10 +186,11 @@ a {
   margin-top: 5rem;
   background-image: url("/img/bg-quality.png");
   background-size: 100vw;
+  background-repeat: no-repeat;
 }
 
 .section-quality .title {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .section-quality .title h2 {
@@ -197,5 +198,47 @@ a {
   font-size: 3.2rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
+}
+
+.section-quality p {
+  max-width: 40rem;
+  font-size: 1.8rem;
+}
+
+.section-quality .text-macaron {
+  margin-left: 7rem;
+}
+
+.section-quality .text-donuts {
+  margin-right: 7rem;
+}
+
+.section-quality .container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 6rem;
+}
+
+.section-quality .container-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem;
+}
+
+.section-quality .container-content div strong {
+  color: #CD0000;
 }
 /*# sourceMappingURL=styles.css.map */
