@@ -203,6 +203,7 @@ a {
 .section-quality p {
   max-width: 40rem;
   font-size: 1.8rem;
+  color: #4D4D4D;
 }
 
 .section-quality .text-macaron {
@@ -240,5 +241,41 @@ a {
 
 .section-quality .container-content div strong {
   color: #CD0000;
+}
+
+.section-delivery {
+  max-width: 94rem;
+  margin: 0 auto;
+}
+
+.section-delivery h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  padding-top: 6rem;
+  font-weight: 400;
+}
+
+.section-delivery .container-delivery {
+  padding-top: 6rem;
+}
+
+.section-delivery .container-delivery > img {
+  margin: 0 14rem 2rem 14rem;
+}
+
+.section-delivery .container-delivery .container-ordering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-delivery .container-delivery .container-ordering img:not(:last-child) {
+  margin-right: 2.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

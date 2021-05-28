@@ -162,6 +162,7 @@
   p {
     max-width: 40rem;
     font-size: $text-18;
+    color: $gray-dark;
   }
 
   .text-macaron {
@@ -187,6 +188,38 @@
 
       strong {
         color: $red;
+      }
+    }
+  }
+}
+
+.section-delivery {
+  max-width: $max-width-94;
+  margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    font-size: $title-32;
+    padding-top: 6rem;
+    font-weight: 400;
+  }
+
+  .container-delivery {
+    padding-top: 6rem;
+
+    > img {
+      margin: 0 14rem 2rem 14rem;
+    }
+
+    .container-ordering {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        &:not(:last-child) {
+          margin-right: 2.5rem;
+        }
       }
     }
   }
