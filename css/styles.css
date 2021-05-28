@@ -184,26 +184,16 @@ a {
 .section-quality {
   position: relative;
   margin-top: 5rem;
-}
-
-.section-quality .bg-quality {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: -1;
-}
-
-.section-quality .bg-quality img {
-  width: 100vw;
+  background-image: url("/img/bg-quality.png");
+  background-size: 100vw;
 }
 
 .section-quality .title {
-  position: absolute;
-  left: 47%;
-  top: 5rem;
+  padding-top: 5rem;
 }
 
 .section-quality .title h2 {
+  text-align: center;
   font-size: 3.2rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
