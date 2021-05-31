@@ -307,7 +307,7 @@ button {
 
 .section-contact .container-contacts .container-contact ul {
   margin-top: 1.5rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .section-contact .container-contacts .container-contact ul li {
@@ -321,6 +321,15 @@ button {
 .section-contact .container-contacts h3 {
   font-size: 2.4rem;
   font-weight: 400;
+}
+
+.section-contact .container-contacts h3 ~ h3 {
+  padding-top: 3rem;
+}
+
+.section-contact .container-contacts .social-media {
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .section-contact .container-contacts ul, .section-contact .container-contacts li {
@@ -433,5 +442,16 @@ button {
 
 .section-contact .container-message button:hover {
   background: #FE6969;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #F55050;
+  margin-top: -3.5rem;
+}
+
+.footer p {
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=styles.css.map */
