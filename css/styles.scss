@@ -366,12 +366,15 @@
 
 
 .footer {
-  text-align: center;
   padding: 2rem;
   background: $red-light;
   margin-top: -3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   p {
     font-size: $text-18;
+    margin-left: 5rem;
   }
 }
