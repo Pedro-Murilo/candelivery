@@ -232,6 +232,53 @@
   background-repeat: no-repeat;
   margin-top: 4rem;
 
+
+  .container-contacts {
+    max-width: $max-width-110;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .container-contact {
+      padding-top: 5rem;
+
+      ul {
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+
+        li {
+          color: $gray-dark;
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+    
+    h3 {
+      font-size: $title-24;
+      font-weight: 400;
+    }
+
+    ul, li {
+      position: relative;
+      font-size: $text-18;
+
+     li::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        height: 5px;
+        width: 5px;
+        background: $black;
+        border-radius: 50%;
+      }
+    }
+  }
+
+
   h2 {
     text-align: center;
     font-size: $title-32;

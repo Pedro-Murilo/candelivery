@@ -292,6 +292,54 @@ button {
   margin-top: 4rem;
 }
 
+.section-contact .container-contacts {
+  max-width: 110rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-contact .container-contacts .container-contact {
+  padding-top: 5rem;
+}
+
+.section-contact .container-contacts .container-contact ul {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.section-contact .container-contacts .container-contact ul li {
+  color: #4D4D4D;
+}
+
+.section-contact .container-contacts .container-contact ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.section-contact .container-contacts h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.section-contact .container-contacts ul, .section-contact .container-contacts li {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.section-contact .container-contacts ul li::before, .section-contact .container-contacts li li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  height: 5px;
+  width: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
 .section-contact h2 {
   text-align: center;
   font-size: 3.2rem;
